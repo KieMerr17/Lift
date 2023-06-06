@@ -1,3 +1,21 @@
 #lift_closed_img {
     display: none;
 }
+
+#image-container {
+    position: relative;
+}
+
+#image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#lift_open_img, #lift_closed_img {
+    z-index: 2;
+}
+
+#lift_environ_img_1, #lift_environ_img_2 {
+    z-index: 1;
+}
