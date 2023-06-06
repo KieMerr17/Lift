@@ -19,3 +19,7 @@
 #lift_environ_img_1, #lift_environ_img_2 {
     z-index: 1;
 }
+
+#display_container {
+    width: 200px;
+}
