@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dce19298c1.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Lift App</title>
 </head>
 <body>
+    <!-- Main Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Side Menu -->
+            <div id="sideMenu" class="col-lg-3 col-md-3 col-sm-3">
+                <div id="" class="row">
+                    <a href="#"><h1><i class="fa-solid fa-elevator">LOGO</i></h1></a>
+                    <p class=""></p>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Actions
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Doors Open</a></li>
+                        <li><a class="dropdown-item" href="#">Doors Closed</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Environment
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Environment 1</a></li>
+                        <li><a class="dropdown-item" href="#">Environment 2</a></li>
+                    </ul>
+                </div>
+                <div id="" class="btn-grp">
+                    <button class="btn btn-secondary" id="btn_save"><i class="fas fa-save"></i></button>
+                    <button class="btn btn-secondary" id="btn_email"><i class="fas fa-envelope"></i></button>
+                    <a class="btn btn-secondary" id="btn_print"><i class="fas fa-print"></i></a>
+                    <a class="btn btn-secondary" id="btn_reset_config"><i class="fas fa-sync-alt"></i></a>
+                </div>
+            </div>
+            
+            <!--Preview Area -->
+            <div id="" class="col-lg-9 col-md-9 col-sm-9 ">
+                <div id="" class="">
+                    <div id="lift_open_img">
+                        <img id="" src="/assets/images/openLift.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main End-->
     
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
